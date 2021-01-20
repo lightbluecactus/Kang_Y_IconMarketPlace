@@ -8,3 +8,10 @@
 {
   width: 100%;
 }
+
+#red:hover
+{
+  fill: blue !important;
+}
+/* !important means apply this rule no matter what other rule have been applied -> this one is the most important */
+/* ignore validator error "fill dosen't exist" */
